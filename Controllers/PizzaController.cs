@@ -59,4 +59,16 @@ public IActionResult Update(int id, Pizza pizza)
 }
 
     // DELETE action
+    [HttpDelete("{id}")]
+public IActionResult Delete(int id)
+{
+    var pizza = PizzaService.Get(id);
+   
+    if (pizza is null)
+        return NotFound();
+       
+    PizzaService.Delete(id);
+   
+    return NoContent();
+}
 }
