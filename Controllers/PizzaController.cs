@@ -31,6 +31,17 @@ public class PizzaController : ControllerBase
 
     // POST action
 
+    [HttpPost]
+    //IActionResult is an interface that represents the result of an action method
+    public IActionResult Create(Pizza pizza){          
+    // This code will save the pizza and return a result
+         PizzaService.Add(pizza);
+    return CreatedAtAction(nameof(Get), new { id = pizza.Id }, pizza);
+
+    }
+
+
+
     // PUT action
 
     // DELETE action
