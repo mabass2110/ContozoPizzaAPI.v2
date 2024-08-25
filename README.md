@@ -214,6 +214,3 @@ We welcome contributions to the ContosoPizza Web API! To contribute:
 
 This project is licensed under the [MIT License](LICENSE).
 
----
-
-Feel free to adapt this README further based on your project's specific needs or any additional features you might add.
