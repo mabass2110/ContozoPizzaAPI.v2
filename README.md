@@ -1,6 +1,3 @@
-Here's a comprehensive README file tailored for your ContosoPizza project that includes controllers, models, and services. This README will help users understand the project's purpose, how to set it up, and how to use the API.
-
----
 
 # ContosoPizza Web API
 
@@ -45,7 +42,7 @@ To get started with the ContosoPizza Web API, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/mabass2110/ContosoPizzaAPI.v2.git
+   git clone https://github.com/mabass2110/ContozoPizzaAPI.v2/tree/master
    ```
 
 2. **Navigate to the Project Directory:**
